@@ -1,0 +1,394 @@
+body,
+html {
+  margin: 20px auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+  width: 95%;
+  background-color: azure;
+}
+a:hover {
+  text-decoration: none;
+}
+hr {
+  height: 2px;
+  background-color: white;
+  margin: 50px 0;
+}
+
+.height-80 {
+  height: 80vh;
+}
+
+.about-img {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  width: 400px;
+}
+.about-text {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 18px;
+}
+.p-pricing {
+  color: rgb(184, 179, 179);
+  font-size: 14px;
+}
+.text-faded {
+  color: rgb(194, 194, 194);
+}
+.bg-faded {
+  background-color: rgba(182, 182, 182, 0.479);
+}
+
+h5,
+.h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+h4,
+.h4 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+li > a {
+  color: rgb(190, 188, 188);
+  text-decoration: none;
+  font-size: 15px;
+}
+li > a:hover {
+  color: lightgrey;
+}
+
+.text-black {
+  color: black !important;
+}
+.shadow-custom {
+  box-shadow: 2px 0 12px grey;
+}
+.custom-bottom {
+  border-bottom: 10px solid mediumseagreen;
+}
+.bg-azure {
+  background-color: azure;
+}
+
+.bg-brown {
+  background-color: rgb(37, 24, 17);
+}
+.bg-greenyellow {
+  background-color: rgba(140, 216, 27, 0.76);
+}
+
+.bg-tomato {
+  background-color: rgb(219, 150, 129);
+}
+
+.btn-tomato {
+  background-color: rgb(219, 150, 129);
+}
+
+.dropdown-item {
+  padding: 0.8em 1em;
+}
+
+.dropdown-item:hover {
+  background-color: lightgreen;
+}
+
+.bg-orange {
+  background-color: rgba(255, 123, 0, 0.883);
+}
+
+.btn-orange {
+  background-color: rgba(255, 123, 0, 0.883);
+}
+
+.bg-lavender {
+  background-color: lavender;
+}
+
+.bg-mediumseagreen {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.btn-mediumseagreen {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.btn-outline-white {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline-white:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Nav Menu Customization */
+.custom-nav {
+  font-size: 1em;
+  font-family: Arial;
+}
+
+/* End Nav Menu Customization */
+
+/* main carousel desc */
+.carousel-desc {
+  top: 10%;
+  left: 5%;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+/*end of  main carousel desc */
+
+/* owl-carousel main css */
+.item {
+  width: 120px;
+  /* height: 100px; */
+  color: white;
+  text-align: center;
+  /* line-height: 200px; */
+  font-size: 25px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.owl-dots {
+  display: none;
+}
+/* owl-carousel main css */
+
+nav {
+  animation-duration: 2s;
+  animation-delay: 0;
+  z-index: 5;
+}
+
+/* social media backgrounds */
+.fa-facebook {
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
+.fa-instagram {
+  background-color: hotpink;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
+.fa-whatsapp {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
+.fa-twitter {
+  background-color: rgb(0, 164, 230);
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
+.fa-github {
+  background-color: rgb(0, 0, 0);
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
+/* social media backgrounds */
+
+.shadow-about {
+  box-shadow: 0px 0px 25px rgb(218, 218, 218);
+}
+
+.shadow-product {
+  box-shadow: 0px 0px 15px rgb(187, 187, 187);
+}
+
+.fa-contact {
+  font-size: 25px;
+  border: 1px dashed rgba(0, 128, 0, 0.493);
+  padding: 12px;
+  border-radius: 50%;
+}
+/* testimonial css */
+
+.item0 {
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.items {
+  width: 100%;
+  height: auto;
+}
+
+.test-img {
+  width: 100px !important;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 6px solid rgba(125, 255, 131, 0.322);
+}
+
+.test-bg {
+  background: linear-gradient(rgba(33, 104, 0, 0.527), rgba(0, 0, 0, 0.787)),
+    url(../testimonials/test-bg.jpg);
+}
+
+.fa-quote-right,
+.fa-quote-left {
+  color: rgba(110, 253, 110, 0.424);
+}
+
+/* end of testimonial css */
+/* why choose us img */
+.choose-img {
+  width: 100px;
+  border: 5px solid rgb(171, 255, 14);
+  border-radius: 50%;
+}
+/* end of why choose us img */
+/* few price */
+.few-price {
+  background: url(../Img/about-img/bb4.jpg) center/cover no-repeat fixed;
+}
+/* end of few price */
+
+/* signup */
+
+.fa-signup {
+  color: rgb(141, 141, 141) !important;
+}
+
+.Signup-shadow {
+  box-shadow: 0 0 25px rgb(209, 209, 209);
+  padding: 3rem;
+  border-radius: 7px;
+}
+
+.Signup-shadow h2 {
+  font-size: 35px;
+  color: green;
+  margin-left: 35%;
+}
+.key {
+  border: 1px solid rgb(165, 165, 165) !important;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 1.5rem;
+}
+
+.key input[type="text"],
+.key input[type="password"],
+.key input[type="email"] {
+  border: none !important;
+  outline: none !important;
+}
+/* end of signup */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .about-text {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo {
+    width: 120px;
+  }
+
+  .about-img {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 290px;
+  }
+  .about-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #about-heading h3 {
+    font-size: 19px;
+    line-height: 1.8;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo {
+    width: 110px;
+  }
+
+  .about-img {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 420px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .logo {
+    width: 100px;
+  }
+
+  .about-img {
+    left: 25%;
+    top: 40%;
+    width: 400px;
+  }
+  #about-heading h3 {
+    font-size: 20px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .logo {
+    width: 100px;
+  }
+
+  .about-img {
+    left: 25%;
+    top: 40%;
+    width: 80%;
+  }
+  #about-heading h3 {
+    font-size: 12px;
+  }
+}
