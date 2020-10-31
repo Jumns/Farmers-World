@@ -1,5 +1,4 @@
-body,
-html {
+body {
   margin: 20px auto;
   padding: 0;
   box-sizing: border-box;
@@ -72,7 +71,7 @@ li > a:hover {
   color: black !important;
 }
 .shadow-custom {
-  box-shadow: 2px 0 12px grey;
+  box-shadow: 0 1px 12px grey;
 }
 .custom-bottom {
   border-bottom: 10px solid mediumseagreen;
@@ -322,6 +321,7 @@ nav {
 @media (min-width: 1200px) {
   .about-text {
     font-size: 18px;
+    line-break: normal;
   }
 }
 
@@ -363,6 +363,11 @@ nav {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767.98px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
   .logo {
     width: 100px;
   }
@@ -379,8 +384,21 @@ nav {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
   .logo {
     width: 100px;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   .about-img {
