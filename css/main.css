@@ -1,14 +1,25 @@
+:root {
+  box-sizing: border-box;
+}
 body {
   margin: 20px auto;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: sans-serif;
   color: white;
   width: 95%;
   background-color: azure;
 }
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 a:hover {
   text-decoration: none;
+  color: lightgreen;
 }
 hr {
   height: 2px;
@@ -34,7 +45,7 @@ hr {
 
 p {
   line-height: 1.7;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 .p-pricing {
   color: rgb(184, 179, 179);
@@ -70,9 +81,16 @@ li > a:hover {
 .text-black {
   color: black !important;
 }
+
+.card:hover {
+  box-shadow: 0 1px 12px grey;
+  transition: all ease-in-out 500ms;
+}
+
 .shadow-custom {
   box-shadow: 0 1px 12px grey;
 }
+
 .custom-bottom {
   border-bottom: 10px solid mediumseagreen;
 }
@@ -384,25 +402,20 @@ nav {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  body {
-    width: 100%;
-    margin: 0;
-  }
-
   .logo {
     width: 100px;
   }
 
   h4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .about-img {
-    left: 25%;
+    left: 17%;
     top: 40%;
     width: 80%;
   }
